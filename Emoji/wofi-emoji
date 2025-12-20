@@ -1,0 +1,4 @@
+#!/bin/bash
+# Emoji picker using wofi + wl-copy
+cat "$(dirname "$0")/emoji.txt" | wofi --show dmenu | cut -d' ' -f1 | wl-copy
+notify-send "Emoji copied to clipboard!"

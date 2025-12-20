@@ -100,6 +100,7 @@ These are enabled after copying the config file from `Hyprland.Conf` to your sys
 
 
 ### 📦 Apply These Shortcuts
+For full instructions, check the [Hyprland.Conf Setup](#hyprlandconf-setup) section.
 
 Copy the config file:
 ``` zsh
@@ -223,6 +224,10 @@ Run the command in your terminal to confirm it works:
 ``` zsh
 wofi-emoji  
 ```
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/wofi-emoji.png?raw=true" width="100%" />
+</p>
+
 If successful, the emoji picker should appear and allow you to select an emoji.
 The emoji is copied to your clipboard just use "CTRL + V" to paste it.
 

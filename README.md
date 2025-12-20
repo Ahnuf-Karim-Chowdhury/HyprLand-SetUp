@@ -312,3 +312,30 @@ Once copied and reloaded, all shortcuts will be active immediately in your Hyprl
 
 ---
 
+## HyprLand UI 
+---
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-51-48_5665.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-52-08_2360.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-52-38_3686.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-54-04_5877.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-54-57_3403.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-57-00_1831.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-57-16_7496.png?raw=true" width="100%" />
+</p>
+<p align="center">
+  <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-57-48_2346.png?raw=true" width="100%" />
+</p>
+

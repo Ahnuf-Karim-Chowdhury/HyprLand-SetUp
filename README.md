@@ -100,7 +100,7 @@ These are enabled after copying the config file from `Hyprland.Conf` to your sys
 
 
 ### 📦 Apply These Shortcuts
-For full instructions, check the [Hyprland.Conf Setup](#hyprlandconf-setup) section.
+For full instructions, check the Hyprland.Conf setup section given below.
 
 Copy the config file:
 ``` zsh

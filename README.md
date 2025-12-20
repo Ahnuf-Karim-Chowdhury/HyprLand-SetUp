@@ -88,7 +88,7 @@ This guide organizes Hyprland shortcuts into categories for easier understanding
 
 ## 🎮 Custom Shortcuts from `hyprland.conf`
 
-These are enabled after copying the config file from `Hyprland.Conf` to your system:
+These are enabled after adding the lines from `Hyprland.Conf` to the end of your system’s config:
 
 - SUPER + Shift + Arrow keys → Swap windows  
 - SUPER + V → Open VS Code  
@@ -102,12 +102,13 @@ These are enabled after copying the config file from `Hyprland.Conf` to your sys
 ### 📦 Apply These Shortcuts
 For full instructions, check the Hyprland.Conf setup section given below.
 
-Copy the config file:
-``` zsh
-cp Hyprland.Conf/hyprland.conf ~/.config/hypr/hyprland.conf
+Open your config file and append the lines:
+```zsh
+nano ~/.config/hypr/hyprland.conf
 ```
+Paste the contents from `Hyprland.Conf/hyprland.conf` at the end, then save.  
 Reload Hyprland:
-``` zsh
+```zsh
 hyprctl reload
 ```
 
@@ -120,13 +121,12 @@ This guide explains how to log in to GitHub using the GitHub CLI (`gh`) and conf
 
 ## 1. Install GitHub CLI
 
-``` zsh
+```zsh
 ### Debian/Ubuntu
 sudo apt install gh
 
 ### Fedora
 sudo dnf install gh
-
 ```
 
 Or download the latest release from [GitHub CLI releases](https://github.com/cli/cli).
@@ -136,7 +136,7 @@ Or download the latest release from [GitHub CLI releases](https://github.com/cli
 ## 2. Authenticate with GitHub
 
 Run the login command:
-``` zsh
+```zsh
 gh auth login
 ```
 Follow the prompts:
@@ -151,7 +151,7 @@ Follow the prompts:
 ## 3. Verify Authentication
 
 Check your login status:
-``` zsh
+```zsh
 gh auth status
 ```
 You should see your GitHub username and confirmation that you are logged in.
@@ -161,7 +161,7 @@ You should see your GitHub username and confirmation that you are logged in.
 ## 4. Configure Git to Use GitHub CLI Credentials
 
 Run:
-``` zsh
+```zsh
 gh auth setup-git
 ```
 This tells Git to use your GitHub CLI credentials for HTTPS. After this, `git push` and other Git operations will work without asking for username/password.
@@ -177,7 +177,7 @@ This guide explains how to install **wofi-emoji**, place your helper files in th
 ## 1. Install Wofi-Emoji
 
 First, install `wofi`:
-``` zsh
+```zsh
 ### Debian/Ubuntu  
 sudo apt install wofi  
 
@@ -186,8 +186,9 @@ sudo dnf install wofi
 ```
 Then download or create the `wofi-emoji` script (from GitHub or your own script) and make it executable:  
 
+```zsh
 chmod +x wofi-emoji  
-
+```
 
 
 
@@ -204,8 +205,7 @@ Your **Emoji** folder should contain the following two files:
 
 These files need to be placed in `/usr/local/bin/` so they are available system-wide.
 ### Option 1 : Using CLI 
-``` zsh
-### Using Terminal (commands)  
+```zsh
 sudo cp ~/Emoji/* /usr/local/bin/  
 sudo chmod +x /usr/local/bin/*  
 ```
@@ -221,7 +221,7 @@ sudo chmod +x /usr/local/bin/*
 ## 4. Test the Emoji Picker
 
 Run the command in your terminal to confirm it works:  
-``` zsh
+```zsh
 wofi-emoji  
 ```
 <p align="center">
@@ -236,15 +236,15 @@ The emoji is copied to your clipboard just use "CTRL + V" to paste it.
 ## 5. Configure Hyprland Shortcut (Optional)
 
 Edit your Hyprland config file:  
-``` zsh
+```zsh
 nano ~/.config/hypr/hyprland.conf  
 ```
 Add this line to bind the shortcut:  
-``` zsh
+```zsh
 bind = ALT_L, E, exec, wofi-emoji  
 ```
 Save and reload Hyprland:  
-``` zsh
+```zsh
 hyprctl reload  
 ```
 
@@ -269,32 +269,34 @@ Hyprland.Conf/hyprland.conf
 
 
 
-## 2. Copy to Your Hyprland Config Directory
+## 2. Append to Your Hyprland Config Directory
 ### Option 1 : Using CLI 
-Use the terminal to copy the file into your current Hyprland configuration:
-``` zsh
-cp Hyprland.Conf/hyprland.conf ~/.config/hypr/hyprland.conf
+Use the terminal to open your current Hyprland configuration:
+```zsh
+nano ~/.config/hypr/hyprland.conf
 ```
+Scroll to the end and paste the contents from `Hyprland.Conf/hyprland.conf`.  
+Save and exit.  
+
 ### Option 2 : Using GUI (file manager) 
 Alternatively, you can copy-paste it manually with your file manager:
 1. Open the repo folder.  
 2. Copy `hyprland.conf` from **Hyprland.Conf**.  
-3. Paste it into `~/.config/hypr/`.  
-4. Replace the existing file if prompted.
+3. Paste its contents at the end of `~/.config/hypr/hyprland.conf`.  
 
 
 
 ## 3. Reload Hyprland
 
-After replacing the config, reload Hyprland:
-``` zsh
+After appending the config, reload Hyprland:
+```zsh
 hyprctl reload
 ```
 
 
 ## 4. Available Shortcuts
 
-Your new configuration includes the following bindings:
+Your configuration now includes the following bindings:
 
 - **$mainMod + SHIFT + Arrow keys** → Swap windows (left, right, up, down)  
 - **SUPER + V** → Open VS Code (reuse window)  
@@ -308,7 +310,7 @@ Your new configuration includes the following bindings:
 
 ## ✅ Usage
 
-Once copied and reloaded, all shortcuts will be active immediately in your Hyprland session.
+Once appended and reloaded, all shortcuts will be active immediately in your Hyprland session.
 
 ---
 
@@ -338,4 +340,3 @@ Once copied and reloaded, all shortcuts will be active immediately in your Hyprl
 <p align="center">
   <img src="https://github.com/Ahnuf-Karim-Chowdhury/HyprLand-SetUp/blob/main/GUI/UI/Screenshot_20-Dec_15-57-48_2346.png?raw=true" width="100%" />
 </p>
-

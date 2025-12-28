@@ -314,6 +314,29 @@ Once appended and reloaded, all shortcuts will be active immediately in your Hyp
 
 ---
 
+# 🖥️ mtab Browser Extension (GUI)
+
+Follow these steps to import and use the export code with the **mtab extension**:
+
+## 📥 Setup
+
+1. Install the **mtab extension** in your browser or application.
+2. Open the extension panel.
+3. Click the Options button.
+
+## ⚙️ Import & Save
+
+1. Scroll to the **bottom** of the extension window.
+2. Click the **Import & Save** button.
+3. Paste the provided code into the file named: **mtab-import.txt**
+4. Confirm the import.
+
+Your mtab export code is now active! You can run exports directly from the extension with your chosen background image.
+
+💡 **Tip:** Keep a backup of your `mtab-import.txt` file so you can quickly re‑apply your settings if you reinstall the extension.
+
+---
+
 ## HyprLand UI 
 ---
 <p align="center">
